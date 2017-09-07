@@ -1,3 +1,6 @@
+# Original file: https://github.com/LionSec/katoolin
+
+
 #!/usr/bin/python
 
 import os
