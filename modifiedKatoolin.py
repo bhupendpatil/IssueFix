@@ -1,5 +1,6 @@
 # Original file: https://github.com/LionSec/katoolin
-# Original is Fixed..
+# Original is not Fixed..
+# Posting update soon..
 
 
 #!/usr/bin/python
