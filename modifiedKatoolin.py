@@ -1,7 +1,7 @@
 # Original file: https://github.com/LionSec/katoolin
-# Original is not Fixed..
-# Posting update soon..
 
+# Removed w3af 
+# if you want to install w3af install it manually from here: http://docs.w3af.org/en/latest/install.html
 
 #!/usr/bin/python
 
@@ -181,10 +181,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install acccheck")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install ace-voip")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install amap")
 							elif opcion2 == "4":
@@ -336,10 +334,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install bbqsql")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install bed")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install cisco-auditing-tool")
 							elif opcion2 == "4":
@@ -442,10 +438,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install aircrack-ng")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install asleap")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install bluelog")
 							elif opcion2 == "4":
@@ -528,14 +522,14 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 10) DIRB				30) ua-tester
 11) DirBuster				31) Uniscan
 12) fimap				32) Vega
-14) Grabber				33) WebScarab
-15) jboss-autopwn			34) Webshag
-16) joomscan				35) WebSlayer
-17) jSQL				36) WebSploit
-18) Maltego Teeth			37) Wfuzz
-19) PadBuster				38) WPScan
-20) Paros				39) XSSer
-					40) zaproxy
+13) FunkLoad				33) WebScarab
+14) Grabber				34) Webshag
+15) jboss-autopwn			35) WebSlayer
+16) joomscan				36) WebSploit
+17) jSQL				37) Wfuzz
+18) Maltego Teeth			38) WPScan
+19) PadBuster				39) XSSer
+20) Paros				40) zaproxy					 
 
 0) Install all Web Applications tools
 				 
@@ -546,10 +540,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install apache-users")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install arachni")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install bbqsql")
 							elif opcion2 == "4":
@@ -662,10 +654,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install burpsuite")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install dnschef")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install fiked")
 							elif opcion2 == "4":
@@ -730,8 +720,6 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 								inicio()
 							elif opcion2 == "gohome":
 								inicio1()
-
-
 							elif opcion2 == "0":
 								cmd = os.system("apt-get install -y burpsuite dnschef fiked hamster-sidejack hexinject iaxflood inviteflood ismtp mitmproxy ohrwurm protos-sip rebind responder rtpbreak rtpinsertsound rtpmixsound sctpscan siparmyknife sipp sipvicious sniffjoke sslsplit sslstrip thc-ipv6 voiphopper webscarab wifi-honey wireshark xspy yersinia zaproxy")  
 							else:
@@ -765,10 +753,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install cryptcat")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install cymothoa")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install dbd")
 							elif opcion2 == "4":
@@ -826,10 +812,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install casefile")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install cutycapt")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install dos2unix")
 							elif opcion2 == "4":
@@ -882,10 +866,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install armitage")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install backdoor-factory")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install beef-xss")
 							elif opcion2 == "4":
@@ -950,10 +932,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install binwalk")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install bulk-extractor")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install git && git clone git://git.kali.org/packages/capstone.git")
 							elif opcion2 == "4":
@@ -1030,10 +1010,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install dhcpig")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install funkload")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install iaxflood")
 							elif opcion2 == "4":
@@ -1096,10 +1074,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install acccheck")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install burpsuite")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install cewl")
 							elif opcion2 == "4":
@@ -1199,10 +1175,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install apktool")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install dex2jar")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install python-diStorm3")
 							elif opcion2 == "4":
@@ -1247,10 +1221,8 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install android-sdk")
-
 							elif opcion2 == "2":
 								cmd = os.system("apt-get install apktool")
-
 							elif opcion2 == "3":
 								cmd = os.system("apt-get install arduino")
 							elif opcion2 == "4":
@@ -1259,7 +1231,6 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 								cmd = os.system("apt-get install sakis3g")
 							elif opcion2 == "6":
 								cmd = os.system("apt-get install smali")
-
 							elif opcion2 == "back":
 								inicio()
 							elif opcion2 == "gohome":
