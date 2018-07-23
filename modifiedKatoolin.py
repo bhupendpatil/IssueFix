@@ -1,9 +1,10 @@
+#!/usr/bin/python
+
 # Original file: https://github.com/LionSec/katoolin
 
 # Removed w3af 
 # if you want to install w3af install it manually from here: http://docs.w3af.org/en/latest/install.html
 
-#!/usr/bin/python
 
 import os
 import sys, traceback
