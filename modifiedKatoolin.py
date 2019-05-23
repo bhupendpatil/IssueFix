@@ -9,6 +9,10 @@
 import os
 import sys, traceback
 
+if os.getuid() != 0:
+    print "Sorry. This script requires sudo privledges"
+    sys.exit()
+
 def main():
 	try:
 		print ('''
@@ -20,10 +24,10 @@ def main():
  $$  $$<    $$$$$$$ |  \033[1;36mKali linux tools installer\033[1;m |$$ |$$ |$$ |  $$ |
  \033[1;36m$$ |\$$\  $$  __$$ |  $$ |$$\ $$ |  $$ |$$ |  $$ |$$ |$$ |$$ |  $$ |
  $$ | \$$\ \$$$$$$$ |  \$$$$  |\$$$$$$  |\$$$$$$  |$$ |$$ |$$ |  $$ |
- \__|  \__| \_______|   \____/  \______/  \______/ \__|\__|\__|  \__| V1.1 \033[1;m
+ \__|  \__| \_______|   \____/  \______/  \______/ \__|\__|\__|  \__| V2.0 \033[1;m
 
 
- \033[1;32m+ -- -- +=[ Author: LionSec | Homepage: www.lionsec.net\033[1;m
+ \033[1;32m+ -- -- +=[ Author: LionSec | Homepage: www.neodrix.com\033[1;m
  \033[1;32m+ -- -- +=[ 331 Tools \033[1;m
 
 
@@ -52,7 +56,7 @@ def main():
 					''')
 					repo = raw_input("\033[1;32mWhat do you want to do ?> \033[1;m")
 					if repo == "1":
-						cmd1 = os.system("apt-key adv --keyserver pgp.mit.edu --recv-keys ED444FF07D8D0BF6")
+						cmd1 = os.system("apt-key adv --keyserver pool.sks-keyservers.net --recv-keys ED444FF07D8D0BF6")
 						cmd2 = os.system("echo '# Kali linux repositories | Added by Katoolin\ndeb http://http.kali.org/kali kali-rolling main contrib non-free' >> /etc/apt/sources.list")
 					elif repo == "2":
 						cmd3 = os.system("apt-get update -m")
